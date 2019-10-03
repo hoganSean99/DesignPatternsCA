@@ -1,4 +1,4 @@
-package Members.Library;
+package Members;
 
 public class guest extends member{
     public guest()

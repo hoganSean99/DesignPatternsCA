@@ -1,4 +1,4 @@
-package Members.Library;
+package Members;
 
 public class longTermMember extends member {
     public longTermMember()

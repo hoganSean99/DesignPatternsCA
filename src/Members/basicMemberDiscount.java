@@ -1,4 +1,4 @@
-package Members.Library;
+package Members;
 
 public class basicMemberDiscount extends member {
 

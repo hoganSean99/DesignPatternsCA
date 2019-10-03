@@ -1,4 +1,4 @@
-package Members.Library;
+package Members;
 
 abstract class member {
 

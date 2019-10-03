@@ -1,4 +1,4 @@
-package Members.Library;
+package Members;
 
 public abstract class memberDecorator extends member{
 
@@ -9,7 +9,7 @@ public abstract class memberDecorator extends member{
 //    {
 //        this.member = memberDiscount;
 //    }
-
+//
 //    public double DiscountRate getMemberDiscountRate()
 //    {
 //        return member.getMemberDiscountRate();

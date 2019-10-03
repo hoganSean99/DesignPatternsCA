@@ -1,4 +1,4 @@
-package Members.Library;
+package Members;
 
 public class DiscountCode extends memberDecorator{
 
