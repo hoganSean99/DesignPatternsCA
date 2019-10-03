@@ -5,6 +5,7 @@ public class basicMemberDiscount extends member {
     @Override
     public double getMemberDiscountRate()
     {
+        // 2% Discount
         return 0.02;
     }
 
