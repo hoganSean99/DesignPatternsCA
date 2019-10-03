@@ -2,16 +2,16 @@ package Members.Library;
 
 public abstract class memberDecorator extends member{
 
-    protected member memberDiscount;
-    public abstract String getDescription();
+    public member member;
+    public abstract String getMemberDescription();
 
-    public memberDecorator(member memberDiscount)
-    {
-        this.memberDiscount = memberDiscount;
-    }
+//    public memberDecorator(member memberDiscount)
+//    {
+//        this.member = memberDiscount;
+//    }
 
-    public double memberDiscountRate()
-    {
-        return memberDiscount.getMemberDiscountRate();
-    }
+//    public double DiscountRate getMemberDiscountRate()
+//    {
+//        return member.getMemberDiscountRate();
+//    }
 }
