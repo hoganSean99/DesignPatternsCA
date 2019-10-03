@@ -3,7 +3,7 @@ package Members;
 public class overSixtyMember extends member {
     public overSixtyMember()
     {
-        memberDescription = "Over 60 Member Discount";
+        memberDescription = "Over 60 Member";
     }
 
     @Override

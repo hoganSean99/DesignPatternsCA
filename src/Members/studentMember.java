@@ -3,7 +3,7 @@ package Members;
 public class studentMember extends member{
     public studentMember()
     {
-        memberDescription = "Student Member Discount";
+        memberDescription = "Student Member";
     }
 
     @Override

@@ -1,6 +1,10 @@
 package Members;
 
 public class basicMemberDiscount extends member {
+    public basicMemberDiscount()
+    {
+        memberDescription = "Basic Member";
+    }
 
     @Override
     public double getMemberDiscountRate()
@@ -9,8 +13,4 @@ public class basicMemberDiscount extends member {
         return 0.02;
     }
 
-    @Override
-    public String getMemberDescription() {
-        return "Basic Member";
-    }
 }
