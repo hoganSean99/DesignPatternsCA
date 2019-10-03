@@ -1,10 +1,15 @@
 package Members.Library;
 
-public class basicMemberDiscount implements member {
+public class basicMemberDiscount extends member {
 
     @Override
-    public int memberFee()
+    public double getMemberDiscountRate()
     {
-        return 2;
+        return 0.02;
+    }
+
+    @Override
+    public String getMemberDescription() {
+        return "Basic Member";
     }
 }
