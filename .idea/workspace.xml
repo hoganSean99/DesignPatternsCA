@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/MemberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/DiscountCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/DriverTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/Members.plantuml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/basicMemberDiscount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/guest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/longTermMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/memberDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/overSixtyMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/Members/studentMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MembersDecorator.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MembersDecorator.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/MembersDecoratorTests/MemberDiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MembersDecoratorTests/MemberDiscountTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -153,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/MembersDecoratorTests/MemberDiscountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="608">
+              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -326,20 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MemberDiscountTest.checkIfTestFailsWhenDiscountRateIsIncorrect">
-    <configuration name="DriverTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Members.DriverTest" />
-      <module name="DesignPatternsCA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Members.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MemberDiscountTest">
     <configuration name="MemberDiscountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MembersDecorator.MemberDiscountDriver" />
       <module name="DesignPatternsCA" />
@@ -353,15 +327,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="databaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Database.databaseConnection" />
+    <configuration name="MemberDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatternsCA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Database.*" />
+          <option name="PATTERN" value="MembersDecoratorTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="MembersDecoratorTests" />
+      <option name="MAIN_CLASS_NAME" value="MembersDecoratorTests.MemberDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberDiscountTest.checkIfLoyalDiscountRateIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MembersDecoratorTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MembersDecoratorTests" />
+      <option name="MAIN_CLASS_NAME" value="MembersDecoratorTests.MemberDiscountTest" />
+      <option name="METHOD_NAME" value="checkIfLoyalDiscountRateIsCorrect" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -400,11 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberDiscountTest" />
+        <item itemvalue="JUnit.MemberDiscountTest.checkIfLoyalDiscountRateIsCorrect" />
         <item itemvalue="JUnit.MemberDiscountTest.checkIfTestFailsWhenDiscountRateIsIncorrect" />
         <item itemvalue="JUnit.MemberDiscountTest.whenGettingDiscount_makeSureItIsCorrectRate" />
         <item itemvalue="Application.MemberDiscountDriver" />
-        <item itemvalue="Application.DriverTest (1)" />
-        <item itemvalue="Application.databaseConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +410,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570124121897</updated>
-      <workItem from="1570124127527" duration="32644000" />
+      <workItem from="1570124127527" duration="33001000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>
@@ -445,7 +437,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32644000" />
+    <option name="totallyTimeSpent" value="33001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -457,7 +449,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2510661" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -469,7 +461,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.4989339" visible="true" weight="0.24918744" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4989339" visible="true" weight="0.24918744" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -689,18 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MembersDecorator/LoyalDiscount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MembersDecorator/StudentDiscount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -787,10 +767,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MembersDecorator/LoyalDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/MembersDecoratorTests/MemberDiscountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="608">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

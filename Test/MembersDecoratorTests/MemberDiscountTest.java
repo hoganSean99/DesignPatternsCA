@@ -31,4 +31,15 @@ public class MemberDiscountTest {
 
         assertNotSame(expectedResult, actualResult);
     }
+
+    @Test
+    public void checkIfLoyalDiscountRateIsCorrect()
+    {
+        MemberDiscount LoyalDiscount = new LoyalDiscount();
+
+        double expectedResult = 0.15;
+        double actualResult   = LoyalDiscount.discountRate();
+
+        assertEquals(expectedResult, actualResult);
+    }
 }
