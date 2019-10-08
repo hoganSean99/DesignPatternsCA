@@ -1,4 +1,4 @@
 package MembersDecorator;
 
-public class BasicDiscount {
+public class BasicDiscount extends MemberDiscount {
 }
