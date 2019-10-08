@@ -78,19 +78,4 @@ title __MEMBERSDECORATOR's Class Diagram__\n
 
 
 
-'  MembersDecorator.HalfPrice -up-|> MembersDecorator.DiscountDecorator
-'  MembersDecorator.DiscountDecorator o-- MembersDecorator.MemberDiscount : memberDiscount
-'  MembersDecorator.DiscountDecorator -up-|> MembersDecorator.MemberDiscount
-'
-'  MembersDecorator.LoyalDiscount -up-|> MembersDecorator.MemberDiscount
-'  MembersDecorator.OapDiscount -up-|> MembersDecorator.MemberDiscount
-'  MembersDecorator.BasicDiscount -up-|> MembersDecorator.MemberDiscount
-'
-'
-'
-'  MembersDecorator.SpringClearance -up-|> MembersDecorator.DiscountDecorator
-'  MembersDecorator.StudentDiscount -up-|> MembersDecorator.MemberDiscount
-'  MembersDecorator.SummerSale -up-|> MembersDecorator.DiscountDecorator
-
-
 @enduml
