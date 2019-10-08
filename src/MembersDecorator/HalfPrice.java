@@ -1,8 +1,8 @@
 package MembersDecorator;
 
-public class HalfPriceDecorator extends DiscountDecorator {
+public class HalfPrice extends DiscountDecorator {
 
-    public HalfPriceDecorator(MemberDiscount memberDiscount)
+    public HalfPrice(MemberDiscount memberDiscount)
     {
         this.memberDiscount = memberDiscount;
     }
