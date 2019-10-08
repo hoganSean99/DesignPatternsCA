@@ -1,0 +1,96 @@
+@startuml
+
+title __MEMBERSDECORATOR's Class Diagram__\n
+
+
+        abstract class MembersDecorator.MemberDiscount {
+            ~ MemberType : String
+            {abstract} + discountRate()
+            + getMemberType()
+        }
+
+        class MembersDecorator.BasicDiscount {
+            + BasicDiscount()
+            + discountRate()
+        }
+
+        class MembersDecorator.LoyalDiscount {
+            + LoyalDiscount()
+            + discountRate()
+        }
+
+        class MembersDecorator.OapDiscount {
+            + OapDiscount()
+            + discountRate()
+        }
+
+        class MembersDecorator.StudentDiscount {
+            + StudentDiscount()
+            + discountRate()
+        }
+
+        abstract class MembersDecorator.DiscountDecorator {
+           {abstract} + getMemberType()
+        }
+
+        class MembersDecorator.SpringClearance {
+            + SpringClearance()
+            + discountRate()
+            + getMemberType()
+        }
+
+
+
+        class MembersDecorator.SummerSale {
+            + SummerSale()
+            + discountRate()
+            + getMemberType()
+        }
+
+
+        class MembersDecorator.HalfPrice {
+            + HalfPrice()
+            + discountRate()
+            + getMemberType()
+        }
+
+
+
+
+        class MembersDecorator.MemberDiscountDriver {
+                    {static} + main()
+                }
+
+
+
+
+   MembersDecorator.MemberDiscount --o MembersDecorator.DiscountDecorator
+   MembersDecorator.DiscountDecorator -up-|> MembersDecorator.MemberDiscount
+
+   MembersDecorator.LoyalDiscount -up-|> MembersDecorator.MemberDiscount
+   MembersDecorator.OapDiscount -up-|> MembersDecorator.MemberDiscount
+   MembersDecorator.BasicDiscount -up-|> MembersDecorator.MemberDiscount
+   MembersDecorator.StudentDiscount -up-|> MembersDecorator.MemberDiscount
+
+   MembersDecorator.SummerSale -up-|> MembersDecorator.DiscountDecorator
+   MembersDecorator.SpringClearance -up-|> MembersDecorator.DiscountDecorator
+   MembersDecorator.HalfPrice -up-|> MembersDecorator.DiscountDecorator
+
+
+
+'  MembersDecorator.HalfPrice -up-|> MembersDecorator.DiscountDecorator
+'  MembersDecorator.DiscountDecorator o-- MembersDecorator.MemberDiscount : memberDiscount
+'  MembersDecorator.DiscountDecorator -up-|> MembersDecorator.MemberDiscount
+'
+'  MembersDecorator.LoyalDiscount -up-|> MembersDecorator.MemberDiscount
+'  MembersDecorator.OapDiscount -up-|> MembersDecorator.MemberDiscount
+'  MembersDecorator.BasicDiscount -up-|> MembersDecorator.MemberDiscount
+'
+'
+'
+'  MembersDecorator.SpringClearance -up-|> MembersDecorator.DiscountDecorator
+'  MembersDecorator.StudentDiscount -up-|> MembersDecorator.MemberDiscount
+'  MembersDecorator.SummerSale -up-|> MembersDecorator.DiscountDecorator
+
+
+@enduml
