@@ -7,17 +7,17 @@ public class LibraryMember {
         this.factory = factory;
     }
 
-    public Member orderPizza(String type) {
+    public Member startMember(String type) {
         Member member;
 
         member = factory.createMember(type);
 
-        member.name();
-        member.age();
-        member.address();
-        member.duration();
+//        member.name();
+//        member.age();
+//        member.address();
+//        member.duration();
 
         return member;
     }
-    
+
 }

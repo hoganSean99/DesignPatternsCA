@@ -2,186 +2,125 @@
 
 title __DESIGNPATTERNSCA's Class Diagram__\n
 
-  namespace  {
-    namespace embers {
-      class Members.DiscountCode {
-      }
+  namespace BookStratagy {
+    class BookStratagy.Book {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      class Members.DriverTest {
-      }
+  namespace MemberFactory {
+    class MemberFactory.BasicMember {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      class Members.basicMemberDiscount {
-      }
+  namespace MemberFactory {
+    class MemberFactory.LibraryMember {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      class Members.guest {
-      }
+  namespace MemberFactory {
+    class MemberFactory.LoyalMember {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      class Members.longTermMember {
-      }
+  namespace MemberFactory {
+    class MemberFactory.Member {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      abstract class Members.member {
-      }
+  namespace MemberFactory {
+    class MemberFactory.MemberFactory {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      abstract class Members.memberDecorator {
-      }
+  namespace MemberFactory {
+    class MemberFactory.MemberFactoryDriver {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      class Members.overSixtyMember {
-      }
+  namespace MemberFactory {
+    class MemberFactory.OAPMember {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      class Members.studentMember {
-      }
+  namespace MemberFactory {
+    class MemberFactory.StudentMember {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.BasicDiscount {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.BasicDiscount {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        abstract class MembersDecorator.DiscountDecorator {
-        }
-      }
+  namespace MembersDecorator {
+    abstract class MembersDecorator.DiscountDecorator {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.HalfPrice {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.HalfPrice {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.LoyalDiscount {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.LoyalDiscount {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        abstract class MembersDecorator.MemberDiscount {
-        }
-      }
+  namespace MembersDecorator {
+    abstract class MembersDecorator.MemberDiscount {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.MemberDiscountDriver {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.MemberDiscountDriver {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.OapDiscount {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.OapDiscount {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.SpringClearance {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.SpringClearance {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.StudentDiscount {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.StudentDiscount {
     }
   }
   
 
-  namespace  {
-    namespace embers {
-      namespace ecorator {
-        class MembersDecorator.SummerSale {
-        }
-      }
+  namespace MembersDecorator {
+    class MembersDecorator.SummerSale {
     }
   }
   
 
-  Members.DiscountCode -up-|> Members.memberDecorator
-  Members.basicMemberDiscount -up-|> Members.member
-  Members.guest -up-|> Members.member
-  Members.longTermMember -up-|> Members.member
-  Members.memberDecorator -up-|> Members.member
-  Members.memberDecorator o-- Members.member : member
-  Members.overSixtyMember -up-|> Members.member
-  Members.studentMember -up-|> Members.member
+  MemberFactory.BasicMember -up-|> MemberFactory.Member
+  MemberFactory.LibraryMember o-- MemberFactory.MemberFactory : factory
+  MemberFactory.LoyalMember -up-|> MemberFactory.Member
+  MemberFactory.OAPMember -up-|> MemberFactory.Member
+  MemberFactory.StudentMember -up-|> MemberFactory.Member
   MembersDecorator.BasicDiscount -up-|> MembersDecorator.MemberDiscount
   MembersDecorator.DiscountDecorator -up-|> MembersDecorator.MemberDiscount
   MembersDecorator.DiscountDecorator o-- MembersDecorator.MemberDiscount : memberDiscount
