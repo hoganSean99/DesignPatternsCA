@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/UI_forFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/UI_forFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/MemberFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/MemberFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,19 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2094#2095#0" expanded="true" />
@@ -77,33 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryUI.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/Member.java">
+        <entry file="file://$PROJECT_DIR$/src/MemberFactory/BasicMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -111,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MemberFactory/StudentMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -122,15 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="29" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -195,16 +157,16 @@
         <option value="$PROJECT_DIR$/src/MembersDecorator/DiscountDecorator.java" />
         <option value="$PROJECT_DIR$/src/MembersDecorator/MemberDiscountDriver.java" />
         <option value="$PROJECT_DIR$/src/MembersDecorator/MemberDiscount.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/LibraryMember.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/Member.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/MemberFactory.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" />
         <option value="$PROJECT_DIR$/src/LibraryDriver.form" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" />
       </list>
     </option>
   </component>
@@ -372,7 +334,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570124121897</updated>
       <workItem from="1570124127527" duration="33870000" />
-      <workItem from="1571759647204" duration="16197000" />
+      <workItem from="1571759647204" duration="16710000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>
@@ -405,7 +367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50067000" />
+    <option name="totallyTimeSpent" value="50580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,7 +382,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.118336886" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5090618" side_tool="true" visible="true" weight="0.100758396" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5090618" side_tool="true" visible="true" weight="0.24485373" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49261746" weight="0.32719547" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
@@ -428,7 +390,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49093816" visible="true" weight="0.100758396" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49093816" visible="true" weight="0.24485373" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -554,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/BasicMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberFactory/LoyalMember.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -627,26 +582,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/StudentMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LibraryUI.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,14 +595,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberFactory/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -673,28 +623,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2094#2095#0" expanded="true" />
             <element signature="e#2129#2130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/StudentMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/BasicMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
