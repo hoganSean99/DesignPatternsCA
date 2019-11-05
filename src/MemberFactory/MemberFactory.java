@@ -5,13 +5,13 @@ public class MemberFactory {
     {
         Member member = null;
 
-        if (type.equals("student")) {
+        if (type.equals("Student")) {
             member = new StudentMember();
-        } else if (type.equals("oap")) {
+        } else if (type.equals("OAP")) {
             member = new OAPMember();
-        } else if (type.equals("basic")) {
+        } else if (type.equals("Basic")) {
             member = new BasicMember();
-        } else if (type.equals("loyal")) {
+        } else if (type.equals("Loyal")) {
             member = new LoyalMember();
         }
 

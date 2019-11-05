@@ -3,9 +3,17 @@ package MemberFactory;
 import java.util.ArrayList;
 
 public class Member {
-    String memberType, name, address;
-    int age, duration;
+//    String memberType, name, address;
+//    int age, duration;
 //    ArrayList<String> address = new ArrayList<String>();
+
+    UI_forFactory UI = new UI_forFactory();
+
+    String name = UI.nameText.getText();
+    String memberType = UI.memberType.getSelectedItem().toString();
+    String address  = UI.addressText.getText();
+    String age  = UI.ageText.getText();
+    String duration = UI.durationText.getText();
 
     public String getMemberType()
     {

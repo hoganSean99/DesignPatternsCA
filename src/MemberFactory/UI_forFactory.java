@@ -79,7 +79,6 @@ public class UI_forFactory extends JFrame implements ActionListener
     {
         if(ar.getSource()==b)
         {
-
             String memberTypeText = memberType.getSelectedItem().toString();
 
             MemberFactory factory = new MemberFactory();
@@ -88,7 +87,19 @@ public class UI_forFactory extends JFrame implements ActionListener
             Member member = library.startMember(memberTypeText);
             System.out.println(member.getMemberType());
             System.out.println(member);
-//new submit_op(aa);
+//            System.out.println("Hello");
+
+//            String name = nameText.getText();
+//            String memberTypeT = memberType.getSelectedItem().toString();
+//            String address  = addressText.getText();
+//            String age  = ageText.getText();
+//            String duration = durationText.getText();
+//
+//            System.out.println("Name :" + name);
+//            System.out.println("Type :" + memberTypeT);
+//            System.out.println("Add  :" + address);
+//            System.out.println("Age  :" + age);
+//            System.out.println("Dura :" + duration);
         }
     }
 }
