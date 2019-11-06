@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/BasicMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/BasicMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/LoyalMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/LoyalMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactoryDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactoryDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/OAPMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/OAPMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/UI_forFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,59 +58,34 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/FactoryEdit/UI_forFactory.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="289">
+                    <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="e#644#645#0" expanded="true" />
+                      <element signature="e#682#683#0" expanded="true" />
+                      <element signature="e#2784#2785#0" expanded="true" />
+                      <element signature="e#2838#2839#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2129#2130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/BasicMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/StudentMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,10 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Members/Library/BasicMember.java" />
-        <option value="$PROJECT_DIR$/src/Members/Library/basicMember.java" />
-        <option value="$PROJECT_DIR$/src/Members/Library/studentMember.java" />
-        <option value="$PROJECT_DIR$/src/Members/Library/longTermMember.java" />
         <option value="$PROJECT_DIR$/src/Members/Library/basicMemberDiscount.java" />
         <option value="$PROJECT_DIR$/src/Members/Library/overSixtyMember.java" />
         <option value="$PROJECT_DIR$/src/Members/Library/discountCode.java" />
@@ -157,32 +141,38 @@
         <option value="$PROJECT_DIR$/src/MembersDecorator/DiscountDecorator.java" />
         <option value="$PROJECT_DIR$/src/MembersDecorator/MemberDiscountDriver.java" />
         <option value="$PROJECT_DIR$/src/MembersDecorator/MemberDiscount.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/LibraryMember.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/Member.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/MemberFactory.java" />
-        <option value="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" />
         <option value="$PROJECT_DIR$/src/LibraryDriver.form" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/LibraryMember.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/Member.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" />
         <option value="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/MemberFactory.java" />
+        <option value="$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/BasicMember.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/LoyalMember.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/StudentMember.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/OAPMember.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/UI_forFactory.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/MemberFactoryDriver.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/MemberFactory.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/Member.java" />
+        <option value="$PROJECT_DIR$/src/FactoryEdit/LibraryMember.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="782" />
-    <option name="height" value="838" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +189,12 @@
               <item name="DesignPatternsCA" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatternsCA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryEdit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatternsCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatternsCA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MemberFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,6 +206,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,13 +220,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Head-First-Design-Patterns-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FactoryEdit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DP_CA\DesignPatternsCA\src\FactoryEdit" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,13 +246,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UI_forFactory">
+  <component name="RunManager" selected="Application.UI_forFactory (1)">
     <configuration name="MemberDiscountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MembersDecorator.MemberDiscountDriver" />
       <module name="DesignPatternsCA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MembersDecorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberFactoryDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryEdit.MemberFactoryDriver" />
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryEdit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,6 +286,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UI_forFactory (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryEdit.UI_forFactory" />
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryEdit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UI_forFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MemberFactory.UI_forFactory" />
       <module name="DesignPatternsCA" />
@@ -282,44 +312,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatternsCA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MembersDecoratorTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MembersDecoratorTests" />
-      <option name="MAIN_CLASS_NAME" value="MembersDecoratorTests.MemberDiscountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberDiscountTest.checkIfLoyalDiscountRateIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatternsCA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MembersDecoratorTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MembersDecoratorTests" />
-      <option name="MAIN_CLASS_NAME" value="MembersDecoratorTests.MemberDiscountTest" />
-      <option name="METHOD_NAME" value="checkIfLoyalDiscountRateIsCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UI_forFactory" />
+        <item itemvalue="Application.UI_forFactory (1)" />
+        <item itemvalue="Application.MemberFactoryDriver (1)" />
         <item itemvalue="Application.MemberFactoryDriver" />
+        <item itemvalue="Application.UI_forFactory" />
         <item itemvalue="Application.MemberDiscountDriver" />
-        <item itemvalue="JUnit.MemberDiscountTest" />
-        <item itemvalue="JUnit.MemberDiscountTest.checkIfLoyalDiscountRateIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +333,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570124121897</updated>
       <workItem from="1570124127527" duration="33870000" />
-      <workItem from="1571759647204" duration="16710000" />
+      <workItem from="1571759647204" duration="30416000" />
+      <workItem from="1573005750476" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>
@@ -367,36 +367,36 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50580000" />
+    <option name="totallyTimeSpent" value="66518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
-      <window_info id="DB Browser" order="1" weight="0.32995737" />
+      <window_info id="DB Browser" order="1" weight="0.32858709" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.118336886" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26258206" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5090618" side_tool="true" visible="true" weight="0.24485373" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5090618" side_tool="true" weight="0.24485373" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49261746" weight="0.32719547" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49261746" weight="0.32713348" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.33260393" />
       <window_info anchor="bottom" id="DB Execution Console" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49093816" visible="true" weight="0.24485373" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49093816" visible="true" weight="0.30087528" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32936078" />
-      <window_info anchor="right" id="PlantUML" order="0" sideWeight="0.49789914" weight="0.35660982" />
+      <window_info anchor="right" id="PlantUML" order="0" sideWeight="0.49789914" weight="0.35628414" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Codota" order="3" />
@@ -409,6 +409,43 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5021008" side_tool="true" weight="0.43154362" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="DB Browser" order="1" weight="0.32896176" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2584885" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5090618" side_tool="true" weight="0.24485373" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49261746" weight="0.32713348" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.33260393" />
+      <window_info anchor="bottom" id="DB Execution Console" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49093816" visible="true" weight="0.30087528" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="PlantUML" order="0" sideWeight="0.49789914" weight="0.35628414" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Codota" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5021008" side_tool="true" weight="0.43154362" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -423,14 +460,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DesignPatternsCA.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/Members/Library/LTM.java" />
-    <entry file="file://$PROJECT_DIR$/src/Members/Library/Library.plantuml" />
-    <entry file="file://$PROJECT_DIR$/Test/MemberTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/Books/Library.java" />
     <entry file="file://$PROJECT_DIR$/src/Members/guest.java" />
     <entry file="file://$PROJECT_DIR$/src/Members/overSixtyMember.java" />
     <entry file="das://1d957a47-3a8c-4ca8-a0cd-b0364353d715/schema/DP/table/BOOK_AREA">
@@ -516,26 +545,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/LoyalMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactory.plantuml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/LibraryMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MembersDecorator/DiscountDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -582,12 +593,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/LibraryDriver.form" />
     <entry file="file://$PROJECT_DIR$/src/LibraryUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -602,57 +609,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/BasicMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/LoyalMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/LibraryMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/MemberFactoryDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/MemberFactory.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="30" selection-start-line="30" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberFactory/StudentMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/BasicMember.java">
+    <entry file="file://$PROJECT_DIR$/src/MemberFactory/UI_forFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="357">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberFactory/OAPMember.java">
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/LoyalMember.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/OAPMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/MemberFactoryDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/LibraryMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/MemberFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/StudentMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/BasicMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryEdit/UI_forFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#2784#2785#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

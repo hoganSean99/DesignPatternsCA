@@ -1,18 +1,22 @@
 package MemberFactory;
 
+import java.util.Objects;
+
 public class BasicMember extends Member {
 
     public BasicMember() {
 
-        UI_forFactory UI = new UI_forFactory();
+//        UI_forFactory UI = new UI_forFactory();
 
-        memberType = "";
-        name = UI.nameText.getText();
-        ;
-        age = "";
-        address = "";
+//        memberType = Objects.requireNonNull(UI.memberType.getSelectedItem()).toString();
+//        name       = UI.nameText.getText();;
+//        age        = UI.ageText.getText();
+//        address    = UI.addressText.getText();
+//        duration   = UI.durationText.getText();
 
-        //address = "9 Hunters Wood, Ballyseedy, Tralee, Co. Kerry";
-        duration = "";
+        name     = "Megan";
+        age      = "20";
+        address  = "Banemore";
+        duration = "2";
     }
 }
