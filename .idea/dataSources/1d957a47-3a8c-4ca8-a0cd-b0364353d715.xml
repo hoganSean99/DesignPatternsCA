@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="BooksDatabase">
-  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.15">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.16">
     <root id="1">
       <ServerVersion>11.2.0.2.0</ServerVersion>
     </root>
@@ -31,7 +31,6 @@
       <ModifiedTimestamp>2019-10-04.00:12:49</ModifiedTimestamp>
       <IntrospectionTimestamp>2019-10-04.01:11:25</IntrospectionTimestamp>
       <Current>1</Current>
-      <Visible>1</Visible>
     </schema>
     <schema id="10" parent="1" name="FLOWS_FILES">
       <ObjectId>44</ObjectId>
@@ -65,7 +64,6 @@
       <CreatedTimestamp>2014-05-29.14:10:42</CreatedTimestamp>
       <ModifiedTimestamp>2014-05-29.14:31:03</ModifiedTimestamp>
       <IntrospectionTimestamp>2019-10-04.01:11:30</IntrospectionTimestamp>
-      <Visible>1</Visible>
     </schema>
     <schema id="20" parent="1" name="SHOGAN">
       <ObjectId>48</ObjectId>

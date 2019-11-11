@@ -2,6 +2,8 @@ package FactoryEdit;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Objects;
 import javax.swing.JFrame;
 import javax.swing.*;
@@ -35,7 +37,7 @@ public class UI_forFactory extends JFrame implements ActionListener
 
     }
 
-    private UI_forFactory()
+    public UI_forFactory()
     {
 
 
@@ -97,25 +99,30 @@ public class UI_forFactory extends JFrame implements ActionListener
        new UI_forFactory();
     }
 
-    public void actionPerformed(ActionEvent ar)
-    {
+    public void actionPerformed(ActionEvent ar) {
         MemberFactory factory = new MemberFactory();
         LibraryMember library = new LibraryMember(factory);
 
         String memberTypeText = Objects.requireNonNull(memberType.getSelectedItem()).toString();
         Member member = library.startMembership(memberTypeText);
 
-        member.name     = nameText.getText();
-        member.address  = addressText.getText();
-        member.age      = ageText.getText();
+        member.name = nameText.getText();
+        member.address = addressText.getText();
+        member.age = ageText.getText();
         member.duration = durationText.getText();
 
+            try
+            {
+                FileWriter writer = new FileWriter(memberTypeText + ".txt", true);
+                    writer.write("\n" + member);
+                    writer.close();
+            }
+            catch (IOException e)
+            {
+                e.printStackTrace();
+            }
 
-        System.out.println(member);
-        System.exit(0);
+            System.out.println(member);
+            System.exit(0);
+        }
     }
-
-
-
-
-}

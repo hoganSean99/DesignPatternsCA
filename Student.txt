@@ -1,0 +1,13 @@
+
+---- Student ----
+Name     : Sean Hogan
+Address  : Hunters Wood
+Age      : 20
+Duration : 4
+;
+---- Student ----
+Name     : Megan Canty
+Address  : Banemore
+Age      : 19
+Duration : 3
+;
