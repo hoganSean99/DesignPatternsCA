@@ -2,12 +2,97 @@
 
 title __BOOKSTRATAGY's Class Diagram__\n
 
-  namespace BookStratagy {
-    class BookStratagy.Book {
+  namespace  {
+    namespace ookStratagy {
+      abstract class BookStratagy.Book {
+          + Book()
+          + cover()
+          {abstract} + display()
+          + setCoverBehaviour()
+      }
     }
   }
   
 
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.BookDriver {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      interface BookStratagy.CoverBehaviour {
+          {abstract} + cover()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.HardCover {
+          + cover()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.HorrorBook {
+          + HorrorBook()
+          + display()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.NoCover {
+          + cover()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.SoftCover {
+          + cover()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.ThrillerBook {
+          + display()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.UIStrat {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  BookStratagy.Book o-- BookStratagy.CoverBehaviour : coverBehaviour
+  BookStratagy.HardCover .up.|> BookStratagy.CoverBehaviour
+  BookStratagy.HorrorBook -up-|> BookStratagy.Book
+  BookStratagy.NoCover .up.|> BookStratagy.CoverBehaviour
+  BookStratagy.SoftCover .up.|> BookStratagy.CoverBehaviour
+  BookStratagy.ThrillerBook -up-|> BookStratagy.Book
 
 
 right footer

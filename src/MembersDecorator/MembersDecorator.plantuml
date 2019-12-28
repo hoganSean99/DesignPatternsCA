@@ -2,84 +2,104 @@
 
 title __MEMBERSDECORATOR's Class Diagram__\n
 
-  namespace MembersDecorator {
-    class MembersDecorator.BasicDiscount {
-        + BasicDiscount()
-        + discountRate()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.BasicDiscount {
+          + BasicDiscount()
+          + discountRate()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    abstract class MembersDecorator.DiscountDecorator {
-        {abstract} + getMemberType()
+  namespace  {
+    namespace embersDecorator {
+      abstract class MembersDecorator.DiscountDecorator {
+          {abstract} + getMemberType()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.HalfPrice {
-        + HalfPrice()
-        + discountRate()
-        + getMemberType()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.HalfPrice {
+          + HalfPrice()
+          + discountRate()
+          + getMemberType()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.LoyalDiscount {
-        + LoyalDiscount()
-        + discountRate()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.LoyalDiscount {
+          + LoyalDiscount()
+          + discountRate()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    abstract class MembersDecorator.MemberDiscount {
-        ~ MemberType : String
-        {abstract} + discountRate()
-        + getMemberType()
+  namespace  {
+    namespace embersDecorator {
+      abstract class MembersDecorator.MemberDiscount {
+          ~ MemberType : String
+          {abstract} + discountRate()
+          + getMemberType()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.MemberDiscountDriver {
-        {static} + main()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.MemberDiscountDriver {
+          {static} + main()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.OapDiscount {
-        + OapDiscount()
-        + discountRate()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.OapDiscount {
+          + OapDiscount()
+          + discountRate()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.SpringClearance {
-        + SpringClearance()
-        + discountRate()
-        + getMemberType()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.SpringClearance {
+          + SpringClearance()
+          + discountRate()
+          + getMemberType()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.StudentDiscount {
-        + StudentDiscount()
-        + discountRate()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.StudentDiscount {
+          + StudentDiscount()
+          + discountRate()
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.SummerSale {
-        + SummerSale()
-        + discountRate()
-        + getMemberType()
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.SummerSale {
+          + SummerSale()
+          + discountRate()
+          + getMemberType()
+      }
     }
   }
   
