@@ -2,60 +2,81 @@
 
 title __MEMBERFACTORY's Class Diagram__\n
 
-  namespace MemberFactory {
-    class MemberFactory.BasicMember {
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.BasicMember {
+          + BasicMember()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.LibraryMember {
-        + LibraryMember()
-        + createMember()
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.LibraryMember {
+          + LibraryMember()
+          + startMember()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.LoyalMember {
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.LoyalMember {
+          + LoyalMember()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.Member {
-        ~ address : ArrayList<String>
-        ~ age : int
-        ~ duration : int
-        ~ name : String
-        + getName()
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.Member {
+          ~ address : String
+          ~ age : String
+          ~ duration : String
+          ~ memberType : String
+          ~ name : String
+          + getMemberType()
+          + toString()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.MemberFactory {
-        + createMember()
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.MemberFactory {
+          + createMember()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.MemberFactoryDriver {
-        {static} + main()
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.MemberFactoryDriver {
+          {static} + main()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.OAPMember {
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.OAPMember {
+          + OAPMember()
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.StudentMember {
-        + StudentMember()
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.StudentMember {
+          + StudentMember()
+      }
     }
   }
   
