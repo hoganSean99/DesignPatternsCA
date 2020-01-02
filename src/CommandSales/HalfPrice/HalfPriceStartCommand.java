@@ -1,9 +1,11 @@
-package CommandSales;
+package CommandSales.HalfPrice;
 
-public class HalfPriceStartCommand implements CommandClass{
+import CommandSales.CommandClass;
+
+public class HalfPriceStartCommand implements CommandClass {
     Half half;
 
-    HalfPriceStartCommand(Half half)
+    public HalfPriceStartCommand(Half half)
     {
         this.half = half;
         System.out.println("Half Price sale started");

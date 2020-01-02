@@ -1,4 +1,6 @@
-package CommandSales;
+package CommandSales.HalfPrice;
+
+import CommandSales.CommandClass;
 
 public class HalfPriceStopCommand implements CommandClass {
     Half half;

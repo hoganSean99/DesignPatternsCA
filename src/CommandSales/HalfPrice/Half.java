@@ -1,15 +1,15 @@
-package CommandSales;
+package CommandSales.HalfPrice;
 
 public class Half {
 
     private boolean halfPriceOn;
 
-    public void startHalfPriceSale()
+    void startHalfPriceSale()
     {
         halfPriceOn = true;
     }
 
-    public void stopHalfPriceSale()
+    void stopHalfPriceSale()
     {
         halfPriceOn = false;
     }

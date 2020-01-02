@@ -8,9 +8,8 @@ public class SaleCommand {
         this.sale = sale;
     }
 
-    public void Sale(){
-
+    public void Sale()
+    {
         sale.execute();
-
     }
 }

@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/Half.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPriceStartCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPriceStopCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/SaleCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/SaleCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand$Clicklistener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand$Clicklistener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommandSales/CommandDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/CommandDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/Half.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPrice/Half.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPriceStartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPrice/HalfPriceStartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPriceStopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPrice/HalfPriceStopCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommandSales/SaleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/SaleCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/UIforCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/UIforCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/ObserverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/ObserverMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +81,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Design-Patterns-CA-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -80,6 +92,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hogan\Documents\DesignPatternsCA\src\CommandSales\TwentyPercentSale" />
       <recent name="C:\DP_CA\DesignPatternsCA\src\FactoryEdit" />
     </key>
   </component>
@@ -101,17 +114,10 @@
       <module name="DesignPatternsCA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommandSales.*" />
+          <option name="PATTERN" value="CommandSales.HalfPrice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomApp" />
-      <module name="DesignPatternsCA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,12 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObserverMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotificationObserver.ObserverMain" />
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NotificationObserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UIforCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandSales.UIforCommand" />
       <module name="DesignPatternsCA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommandSales.*" />
+          <option name="PATTERN" value="CommandSales.HalfPrice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.UIforCommand" />
-        <item itemvalue="Application.LibraryUI" />
+        <item itemvalue="Application.ObserverMain" />
         <item itemvalue="Application.CommandDriver" />
+        <item itemvalue="Application.LibraryUI" />
         <item itemvalue="Application.ViewMembersUI" />
-        <item itemvalue="Application.CustomApp" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +186,7 @@
       <workItem from="1571759647204" duration="30416000" />
       <workItem from="1573005750476" duration="2232000" />
       <workItem from="1573493161042" duration="14922000" />
-      <workItem from="1577990012969" duration="4191000" />
+      <workItem from="1577990012969" duration="11303000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>

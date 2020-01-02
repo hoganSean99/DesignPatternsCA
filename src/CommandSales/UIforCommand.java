@@ -1,6 +1,13 @@
 package CommandSales;
 
-import FactoryEdit.UI_forFactory;
+import CommandSales.HalfPrice.Half;
+import CommandSales.HalfPrice.HalfPriceStartCommand;
+import CommandSales.HalfPrice.HalfPriceStopCommand;
+import CommandSales.ObserverAndCommand.CheckSale;
+import CommandSales.ObserverAndCommand.Sale;
+import CommandSales.TwentyPercentSale.Twenty;
+import CommandSales.TwentyPercentSale.TwentyPercentStartCommand;
+import CommandSales.TwentyPercentSale.TwentyPercentStopCommand;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,10 +21,13 @@ public class UIforCommand extends JFrame {
         new UIforCommand();
     }
 
-    JButton StartHalfPriceSaleButton = new JButton("Start Half Price");
-    JButton StopHalfPriceSaleButton  = new JButton("Stop Half Price");
+    private JButton StartHalfPriceSaleButton = new JButton("Start Half Price");
+    private JButton StopHalfPriceSaleButton  = new JButton("Stop Half Price");
 
-    public UIforCommand()
+    private JButton StartTwentyPercentSaleButton = new JButton("Start 20% Sale");
+    private JButton StopTwentyPercentSaleButton  = new JButton("Stop 20% Sale");
+
+    private UIforCommand()
     {
         Clicklistener click = new Clicklistener();
 
@@ -28,11 +38,20 @@ public class UIforCommand extends JFrame {
         StartHalfPriceSaleButton.setBounds(50, 100, 200, 70);
         StopHalfPriceSaleButton.setBounds(260, 100, 200, 70);
 
+        StartTwentyPercentSaleButton.setBounds(50, 200, 200, 70);
+        StopTwentyPercentSaleButton.setBounds(260, 200, 200, 70);
+
         frame.add(StartHalfPriceSaleButton);
         frame.add(StopHalfPriceSaleButton);
 
+        frame.add(StartTwentyPercentSaleButton);
+        frame.add(StopTwentyPercentSaleButton);
+
         StartHalfPriceSaleButton.addActionListener(click);
         StopHalfPriceSaleButton.addActionListener(click);
+
+        StartTwentyPercentSaleButton.addActionListener(click);
+        StopTwentyPercentSaleButton.addActionListener(click);
 
         frame.setLayout(null);
         frame.setVisible(true);
@@ -47,6 +66,12 @@ public class UIforCommand extends JFrame {
     {
         SaleCommand sale = new SaleCommand();
         Half halfPrice = new Half();
+        Twenty twenty = new Twenty();
+
+        CheckSale halfObserver = new CheckSale("Half Price Sale", "Not Active");
+        CheckSale twentyObserver = new CheckSale("20% Sale", "Not Active");
+        Sale HalfPriceObserver = new Sale("Half Price");
+        Sale TwentyPercentObserver = new Sale("20%");
 
         public void actionPerformed(ActionEvent e)
         {
@@ -56,14 +81,57 @@ public class UIforCommand extends JFrame {
                 CommandClass StartHalfPrice = new HalfPriceStartCommand(halfPrice);
                 sale.setCommand(StartHalfPrice);
                 sale.Sale();
+                //Observer
+                halfObserver.setSale("Active");
             }
 
             else if(e.getSource() == StopHalfPriceSaleButton)
             {
-                //Half Price Stop
-                CommandClass StopHalfPrice = new HalfPriceStopCommand(halfPrice);
-                sale.setCommand(StopHalfPrice);
+                    if (halfObserver.CheckSaleOn.equals("Active"))
+                    {
+                        //Half Price Stop
+                        CommandClass StopHalfPrice = new HalfPriceStopCommand(halfPrice);
+                        sale.setCommand(StopHalfPrice);
+                        sale.Sale();
+                        //Observer
+                        halfObserver.setSale("Not Active");
+                }
+                    else if (halfObserver.CheckSaleOn.equals("Not Active"))
+                    {
+                        //Observer
+                        halfObserver.registerObserver(HalfPriceObserver);
+                        halfObserver.setSale("Not Active");
+                        halfObserver.removeObserver(HalfPriceObserver);
+                    }
+            }
+
+            else if(e.getSource() == StartTwentyPercentSaleButton)
+            {
+                //20% Price Start
+                CommandClass StartTwentyPercentSale = new TwentyPercentStartCommand(twenty);
+                sale.setCommand(StartTwentyPercentSale);
                 sale.Sale();
+                twentyObserver.setSale("Active");
+            }
+
+            else if(e.getSource() == StopTwentyPercentSaleButton)
+            {
+                if (twentyObserver.CheckSaleOn.equals("Active"))
+                {
+                    //20% Stop
+                    CommandClass StopTwenty = new TwentyPercentStopCommand(twenty);
+                    sale.setCommand(StopTwenty);
+                    sale.Sale();
+                    //Observer
+                    twentyObserver.setSale("Not Active");
+                }
+                else if (halfObserver.CheckSaleOn.equals("Not Active"))
+                {
+                    //Observer
+                    twentyObserver.registerObserver(TwentyPercentObserver);
+                    twentyObserver.setSale("Not Active");
+                    twentyObserver.removeObserver(TwentyPercentObserver);
+                }
             }
             }
         }
