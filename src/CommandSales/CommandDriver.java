@@ -8,13 +8,13 @@ public class CommandDriver {
         CommandClass StartHalfPrice = new HalfPriceStartCommand(halfPrice);
         CommandClass StopHalfPrice = new HalfPriceStopCommand(halfPrice);
 
-        //Half Price Start
-        sale.setCommand(StartHalfPrice);
-        sale.StartSale();
-
-        //Half Price Stop
-        sale.setCommand(StopHalfPrice);
-        sale.StartSale();
+//        //Half Price Start
+//        sale.setCommand(StartHalfPrice);
+//        sale.Sale();
+//
+//        //Half Price Stop
+//        sale.setCommand(StopHalfPrice);
+//        sale.Sale();
 
     }
 }

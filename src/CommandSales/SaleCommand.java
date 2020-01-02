@@ -8,7 +8,7 @@ public class SaleCommand {
         this.sale = sale;
     }
 
-    public void StartSale(){
+    public void Sale(){
 
         sale.execute();
 
