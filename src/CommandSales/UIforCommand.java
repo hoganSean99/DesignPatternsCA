@@ -27,7 +27,7 @@ public class UIforCommand extends JFrame {
     private JButton StartTwentyPercentSaleButton = new JButton("Start 20% Sale");
     private JButton StopTwentyPercentSaleButton  = new JButton("Stop 20% Sale");
 
-    private UIforCommand()
+    public UIforCommand()
     {
         Clicklistener click = new Clicklistener();
 

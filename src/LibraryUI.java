@@ -1,3 +1,4 @@
+import CommandSales.UIforCommand;
 import FactoryEdit.UI_forFactory;
 
 import javax.swing.*;
@@ -14,6 +15,7 @@ public class LibraryUI extends JFrame {
 
     JButton membersButton   = new JButton("View Members");
     JButton addMemberButton = new JButton("Add Member");
+    JButton salesButton = new JButton("Sales");
 
     public LibraryUI()
     {
@@ -25,12 +27,15 @@ public class LibraryUI extends JFrame {
 
         membersButton.setBounds(50, 100, 200, 70);
         addMemberButton.setBounds(260, 100, 200, 70);
+        salesButton.setBounds(50, 200, 200, 70);
 
         frame.add(membersButton);
         frame.add(addMemberButton);
+        frame.add(salesButton);
 
         membersButton.addActionListener(click);
         addMemberButton.addActionListener(click);
+        salesButton.addActionListener(click);
 
         frame.setLayout(null);
         frame.setVisible(true);
@@ -59,6 +64,14 @@ public class LibraryUI extends JFrame {
                 LibraryUI LUI = new LibraryUI();
 
                 new UI_forFactory();
+                LUI.setVisible(false);
+                LUI.dispose();
+            }
+            else if(e.getSource() == salesButton)
+            {
+                LibraryUI LUI = new LibraryUI();
+
+                new UIforCommand();
                 LUI.setVisible(false);
                 LUI.dispose();
             }
