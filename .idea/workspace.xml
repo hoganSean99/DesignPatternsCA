@@ -3,68 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatternsCA.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatternsCA.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/MembersDecoratorTests/MembersDecoratorTests.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MembersDecoratorTests/MembersDecoratorTests.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/BookStratagy.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/BookStratagy.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/HorrorBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/HorrorBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPrice/Half.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPrice/HalfPriceStartCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPrice/HalfPriceStopCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/CheckSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/CheckSale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/Sale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/TwentyPercentSale/Twenty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/TwentyPercentSale/TwentyPercentStartCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/TwentyPercentSale/TwentyPercentStopCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand$Clicklistener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand$Clicklistener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/FactoryEdit/FactoryEdit.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/FactoryEdit/FactoryEdit.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/BasicMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/BasicMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/LoyalMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/LoyalMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactory.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactory.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/OAPMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/OAPMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/HalfPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/HalfPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MemberDiscountDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MemberDiscountDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MembersDecorator.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MembersDecorator.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/NotificationObserver.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/NotificationObserver.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/ObserverMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/ObserverMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/src.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/DesignPatternsCA/MembersDecoratorTests/MembersDecoratorTests.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DesignPatternsCA/MembersDecoratorTests/MembersDecoratorTests.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookStratagy/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStratagy/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookStratagy/BookStratagy.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStratagy/BookStratagy.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookStratagy/HorrorBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStratagy/HorrorBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/CommandDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/CommandDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPrice/Half.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/Half.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPrice/HalfPriceStartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPriceStartCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPrice/HalfPriceStopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPriceStopCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/CheckSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/CheckSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale/Twenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/Twenty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale/TwentyPercentStartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/TwentyPercentStartCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale/TwentyPercentStopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/TwentyPercentStopCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandSales/UIforCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/UIforCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryEdit/FactoryEdit.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryEdit/FactoryEdit.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/MemberFactory.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/MemberFactory.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/HalfPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/HalfPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/MemberDiscountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/MemberDiscountDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/NotificationObserver.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/NotificationObserver.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/ObserverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/ObserverMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.plantuml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +184,7 @@
       <workItem from="1571759647204" duration="30416000" />
       <workItem from="1573005750476" duration="2232000" />
       <workItem from="1573493161042" duration="14922000" />
-      <workItem from="1577990012969" duration="45812000" />
+      <workItem from="1577990012969" duration="47843000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>
