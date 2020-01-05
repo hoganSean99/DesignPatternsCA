@@ -2,7 +2,8 @@
 
 title __NOTIFICATIONOBSERVER's Class Diagram__\n
 
-
+  namespace  {
+    namespace otificationObserver {
       class NotificationObserver.Member {
           ~ memberName : String
           + Member()
@@ -10,23 +11,43 @@ title __NOTIFICATIONOBSERVER's Class Diagram__\n
           + setMemberName()
           + update()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace otificationObserver {
       interface NotificationObserver.MemberNames {
           {static} + John : Member
           {static} + Megan : Member
           {static} + Sean : Member
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace otificationObserver {
       interface NotificationObserver.Observer {
           {abstract} + update()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace otificationObserver {
       class NotificationObserver.ObserverMain {
           {static} + main()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace otificationObserver {
       class NotificationObserver.Product {
-          + availability : String
+          - availability : String
           - bookName : String
           - memberName : String
           - observers : ArrayList<Observer>
@@ -44,13 +65,19 @@ title __NOTIFICATIONOBSERVER's Class Diagram__\n
           + setObservers()
           + setTransactionType()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace otificationObserver {
       interface NotificationObserver.Subject {
           {abstract} + notifyObservers()
           {abstract} + registerObserver()
           {abstract} + removeObserver()
       }
-
+    }
+  }
   
 
   NotificationObserver.Member .up.|> NotificationObserver.Observer

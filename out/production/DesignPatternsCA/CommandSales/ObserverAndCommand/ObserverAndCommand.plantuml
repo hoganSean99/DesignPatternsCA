@@ -2,7 +2,8 @@
 
 title __OBSERVERANDCOMMAND's Class Diagram__\n
 
-
+  namespace  {
+    namespace ommandSales {
       namespace ObserverAndCommand {
         class CommandSales.ObserverAndCommand.CheckSale {
             + CheckSaleOn : String
@@ -21,13 +22,23 @@ title __OBSERVERANDCOMMAND's Class Diagram__\n
             + setSaleType()
         }
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       namespace ObserverAndCommand {
         class CommandSales.ObserverAndCommand.Observer {
             + update()
         }
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       namespace ObserverAndCommand {
         class CommandSales.ObserverAndCommand.Sale {
             ~ sale : String
@@ -35,7 +46,12 @@ title __OBSERVERANDCOMMAND's Class Diagram__\n
             + update()
         }
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       namespace ObserverAndCommand {
         interface CommandSales.ObserverAndCommand.Subject {
             {abstract} + notifyObservers()
@@ -43,7 +59,9 @@ title __OBSERVERANDCOMMAND's Class Diagram__\n
             {abstract} + removeObserver()
         }
       }
-
+    }
+  }
+  
 
   CommandSales.ObserverAndCommand.CheckSale .up.|> CommandSales.ObserverAndCommand.Subject
   CommandSales.ObserverAndCommand.CheckSale o-- CommandSales.ObserverAndCommand.Sale : sales

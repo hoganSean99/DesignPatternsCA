@@ -2,51 +2,118 @@
 
 title __COMMANDSALES's Class Diagram__\n
 
-
+  namespace  {
+    namespace ommandSales {
       interface CommandSales.CommandClass {
           {abstract} + execute()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.CommandDriver {
+          {static} + main()
+      }
+    }
+  }
+  
 
-
+  namespace  {
+    namespace ommandSales {
       class CommandSales.Half {
           - halfPriceOn : boolean
           ~ startHalfPriceSale()
           ~ stopHalfPriceSale()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       class CommandSales.HalfPriceStartCommand {
           + HalfPriceStartCommand()
           + execute()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       class CommandSales.HalfPriceStopCommand {
           + HalfPriceStopCommand()
           + execute()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       class CommandSales.SaleCommand {
           + Sale()
           + setCommand()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       class CommandSales.Twenty {
           - TwentyOn : boolean
           ~ startTwentyPercentSale()
           ~ stopTwentyPercentSale()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       class CommandSales.TwentyPercentStartCommand {
           + TwentyPercentStartCommand()
           + execute()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
       class CommandSales.TwentyPercentStopCommand {
           + TwentyPercentStopCommand()
           + execute()
       }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.UIforCommand {
+          - StartHalfPriceSaleButton : JButton
+          - StartTwentyPercentSaleButton : JButton
+          - StopHalfPriceSaleButton : JButton
+          - StopTwentyPercentSaleButton : JButton
+          + UIforCommand()
+          {static} + main()
+      }
+    }
+  }
+  
 
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.UIforCommand.Clicklistener {
+          + actionPerformed()
+      }
+    }
+  }
+  
 
   CommandSales.HalfPriceStartCommand .up.|> CommandSales.CommandClass
   CommandSales.HalfPriceStartCommand o-- CommandSales.Half : half
@@ -57,7 +124,16 @@ title __COMMANDSALES's Class Diagram__\n
   CommandSales.TwentyPercentStartCommand o-- CommandSales.Twenty : twenty
   CommandSales.TwentyPercentStopCommand .up.|> CommandSales.CommandClass
   CommandSales.TwentyPercentStopCommand o-- CommandSales.Twenty : twenty
-
+  CommandSales.UIforCommand -up-|> javax.swing.JFrame
+  CommandSales.UIforCommand +-down- CommandSales.UIforCommand.Clicklistener
+  CommandSales.UIforCommand.Clicklistener .up.|> java.awt.event.ActionListener
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.ObserverAndCommand.Sale : HalfPriceObserver
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.ObserverAndCommand.Sale : TwentyPercentObserver
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.ObserverAndCommand.CheckSale : halfObserver
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.Half : halfPrice
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.SaleCommand : sale
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.Twenty : twenty
+  CommandSales.UIforCommand.Clicklistener o-- CommandSales.ObserverAndCommand.CheckSale : twentyObserver
 
 
 right footer

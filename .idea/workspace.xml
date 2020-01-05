@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/MembersDecoratorTests/MemberDiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MembersDecoratorTests/MemberDiscountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandSales.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandSales.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/ObserverAndCommand.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/ObserverAndCommand.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/NotificationObserver.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/NotificationObserver.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/src.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.plantuml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,20 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TemplateDriver">
-    <configuration name="MemberFactoryDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MemberFactory.MemberFactoryDriver" />
-      <module name="DesignPatternsCA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MemberFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MemberDiscountTest">
     <configuration name="ObserverMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NotificationObserver.ObserverMain" />
       <module name="DesignPatternsCA" />
@@ -134,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UI_forFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryEdit.UI_forFactory" />
-      <module name="DesignPatternsCA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FactoryEdit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UIforCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandSales.UIforCommand" />
       <module name="DesignPatternsCA" />
@@ -160,13 +140,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MembersDecoratorTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MembersDecoratorTests" />
+      <option name="MAIN_CLASS_NAME" value="MembersDecoratorTests.MemberDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberDiscountTest.whenGettingDiscount_makeSureItIsCorrectRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MembersDecoratorTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MembersDecoratorTests" />
+      <option name="MAIN_CLASS_NAME" value="MembersDecoratorTests.MemberDiscountTest" />
+      <option name="METHOD_NAME" value="whenGettingDiscount_makeSureItIsCorrectRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberDiscountTest" />
+        <item itemvalue="JUnit.MemberDiscountTest.whenGettingDiscount_makeSureItIsCorrectRate" />
         <item itemvalue="Application.TemplateDriver" />
         <item itemvalue="Application.ObserverMain" />
         <item itemvalue="Application.UIforCommand" />
-        <item itemvalue="Application.UI_forFactory" />
-        <item itemvalue="Application.MemberFactoryDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +195,7 @@
       <workItem from="1571759647204" duration="30416000" />
       <workItem from="1573005750476" duration="2232000" />
       <workItem from="1573493161042" duration="14922000" />
-      <workItem from="1577990012969" duration="47843000" />
+      <workItem from="1577990012969" duration="48750000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>
