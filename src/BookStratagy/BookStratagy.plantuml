@@ -44,7 +44,6 @@ title __BOOKSTRATAGY's Class Diagram__\n
   namespace  {
     namespace ookStratagy {
       class BookStratagy.HorrorBook {
-          + HorrorBook()
           + display()
       }
     }

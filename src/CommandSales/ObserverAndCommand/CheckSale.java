@@ -41,7 +41,6 @@ public class CheckSale implements Subject{
     }
 
     public void notifyObservers() {
-        System.out.println("");
         for (Observer ob : observers) {
             ob.update(this.CheckSaleOn );
         }

@@ -11,7 +11,6 @@ public class ObserverMain {
         HarryPotter.registerObserver(MemberNames.Sean);
 
 
-        Macbeth.setAvailability("Not Available");
-        HarryPotter.setAvailability("Available");
+        Macbeth.setAvailability("Available");
     }
 }

@@ -7,10 +7,18 @@ The Design Patterns I am Implementing are as follows
 - Factory Pattern
 - Observer Pattern
 - Command Patter
+- Template Pattern
 
 Along with implementing the above patterns, I also wanted to get the patterns to work with each other \
-The following are the pattern I got working together
+The following are the patterns I got working together
 
 - Command Pattern with the Observer Pattern
-- Decorator Pattern with the Factory Pattern  
+
+I also learned about the different types of principles
+
+- **S**ingle Responsability
+- **O**pen-Close Principle
+- **L**iskov Substitution 
+- **I**nterface segregation principle
+- **D**ependency inversion principle
 

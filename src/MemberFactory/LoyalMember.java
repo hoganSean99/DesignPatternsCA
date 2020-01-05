@@ -13,10 +13,10 @@ public class LoyalMember extends Member {
 //        age        = UI.ageText.getText();
 //        address    = UI.addressText.getText();
 //        duration   = UI.durationText.getText();
-
+        memberType = "Loyal";
         name     = "Maebh Breen";
         age      = "16";
-        address  = "Hunters Wood";
+        address  = "Killarney";
         duration = "10";
     }
 }

@@ -6,6 +6,7 @@ title __SRC's Class Diagram__\n
     class LibraryUI {
         ~ addMemberButton : JButton
         ~ membersButton : JButton
+        ~ salesButton : JButton
         + LibraryUI()
         {static} + main()
     }

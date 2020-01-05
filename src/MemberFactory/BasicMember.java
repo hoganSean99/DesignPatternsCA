@@ -13,10 +13,10 @@ public class BasicMember extends Member {
 //        age        = UI.ageText.getText();
 //        address    = UI.addressText.getText();
 //        duration   = UI.durationText.getText();
-
+        memberType = "Basic";
         name     = "Megan";
         age      = "20";
-        address  = "Banemore";
+        address  = "Listowel";
         duration = "2";
     }
 }

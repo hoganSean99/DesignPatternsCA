@@ -1,13 +1,13 @@
 
 ---- Student ----
 Name     : Sean Hogan
-Address  : Hunters Wood
+Address  : Tralee
 Age      : 20
 Duration : 4
 ;
+
 ---- Student ----
-Name     : Megan Canty
-Address  : Banemore
-Age      : 19
-Duration : 3
-;
+Name     : John Smith
+Address  : Killarney
+Age      : 21
+Duration : 4

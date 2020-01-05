@@ -7,7 +7,7 @@ public class MemberDiscountDriver {
         System.out.println(Student.getMemberType() + "\n"
                 + "Discount Rate of : " + Student.discountRate());
 
-        System.out.println("\n\n");
+        System.out.println("");
 
         MemberDiscount StudentWithHalfPrice = new StudentDiscount();
         StudentWithHalfPrice = new HalfPrice(StudentWithHalfPrice);

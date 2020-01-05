@@ -4,7 +4,8 @@ package CommandSales.ObserverAndCommand;
 
         String sale;
 
-        public Sale(String sale) {
+        public Sale(String sale)
+        {
             this.sale = sale;
         }
 

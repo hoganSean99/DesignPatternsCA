@@ -1,9 +1,5 @@
 package CommandSales;
 
-import CommandSales.HalfPrice.Half;
-import CommandSales.HalfPrice.HalfPriceStartCommand;
-import CommandSales.HalfPrice.HalfPriceStopCommand;
-
 public class CommandDriver {
     public static void main(String[] args)
     {

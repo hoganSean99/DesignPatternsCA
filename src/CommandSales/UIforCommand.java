@@ -1,13 +1,7 @@
 package CommandSales;
 
-import CommandSales.HalfPrice.Half;
-import CommandSales.HalfPrice.HalfPriceStartCommand;
-import CommandSales.HalfPrice.HalfPriceStopCommand;
 import CommandSales.ObserverAndCommand.CheckSale;
 import CommandSales.ObserverAndCommand.Sale;
-import CommandSales.TwentyPercentSale.Twenty;
-import CommandSales.TwentyPercentSale.TwentyPercentStartCommand;
-import CommandSales.TwentyPercentSale.TwentyPercentStopCommand;
 
 import javax.swing.*;
 import java.awt.*;

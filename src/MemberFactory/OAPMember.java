@@ -12,10 +12,10 @@ public class OAPMember extends Member {
 //        age        = UI.ageText.getText();
 //        address    = UI.addressText.getText();
 //        duration   = UI.durationText.getText();
-
+        memberType = "OAP";
         name     = "John Mangan";
         age      = "73";
-        address  = "Park";
+        address  = "Ardfert";
         duration = "10";
     }
 }

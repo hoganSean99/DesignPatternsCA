@@ -4,16 +4,19 @@ public class Member implements Observer {
 
     String memberName;
 
-    public Member(String memberName) {
+    public Member(String memberName)
+    {
         this.memberName = memberName;
     }
 
 
-    public String getMemberName() {
+    public String getMemberName()
+    {
         return memberName;
     }
 
-    public void setMemberName(String memberName) {
+    public void setMemberName(String memberName)
+    {
         this.memberName = memberName;
     }
 

@@ -11,18 +11,15 @@ title __NOTIFICATIONOBSERVER's Class Diagram__\n
           + update()
       }
 
-
       interface NotificationObserver.MemberNames {
           {static} + John : Member
           {static} + Megan : Member
           {static} + Sean : Member
       }
-  
 
       interface NotificationObserver.Observer {
           {abstract} + update()
       }
-  
 
       class NotificationObserver.ObserverMain {
           {static} + main()
@@ -47,13 +44,13 @@ title __NOTIFICATIONOBSERVER's Class Diagram__\n
           + setObservers()
           + setTransactionType()
       }
-  
 
       interface NotificationObserver.Subject {
           {abstract} + notifyObservers()
           {abstract} + registerObserver()
           {abstract} + removeObserver()
       }
+
   
 
   NotificationObserver.Member .up.|> NotificationObserver.Observer

@@ -6,8 +6,15 @@ public abstract class Book {
     public Book() {
     }
 
-    public void setCoverBehaviour(CoverBehaviour coverBehaviour) {this.coverBehaviour = coverBehaviour; }
+    public void setCoverBehaviour(CoverBehaviour coverBehaviour)
+    {
+        this.coverBehaviour = coverBehaviour;
+    }
 
-    public String cover(){ return coverBehaviour.cover();}
+    public String cover()
+    {
+        return coverBehaviour.cover();
+    }
+
     public abstract String display();
 }

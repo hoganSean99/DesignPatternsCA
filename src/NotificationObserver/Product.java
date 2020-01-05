@@ -10,7 +10,7 @@ public class Product implements Subject {
     private ArrayList<Observer> observers = new ArrayList<Observer>();
     private String bookName;
     private String transactionType;
-    public String availability;
+    private String availability;
 
     public Product(String bookName, String transactionType, String availability)
     {

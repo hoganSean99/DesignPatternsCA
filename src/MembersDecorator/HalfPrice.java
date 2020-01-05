@@ -13,7 +13,8 @@ public class HalfPrice extends DiscountDecorator {
     }
 
     @Override
-    public double discountRate() {
+    public double discountRate()
+    {
         return 0.5 + memberDiscount.discountRate();
     }
 }

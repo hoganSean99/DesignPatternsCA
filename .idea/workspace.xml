@@ -3,7 +3,68 @@
   <component name="ChangeListManager">
     <list default="true" id="1e840805-c007-432e-b93f-40dcbb97598f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatternsCA.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatternsCA.plantuml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/MembersDecoratorTests/MembersDecoratorTests.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MembersDecoratorTests/MembersDecoratorTests.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/BookStratagy.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/BookStratagy.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/HorrorBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/BookStratagy/HorrorBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/CommandDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPrice/Half.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPrice/HalfPriceStartCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/HalfPrice/HalfPriceStopCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/CheckSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/CheckSale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/ObserverAndCommand/Sale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/TwentyPercentSale/Twenty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/TwentyPercentSale/TwentyPercentStartCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/TwentyPercentSale/TwentyPercentStopCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand$Clicklistener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand$Clicklistener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/CommandSales/UIforCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/FactoryEdit/FactoryEdit.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/FactoryEdit/FactoryEdit.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/BasicMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/BasicMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/LoyalMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/LoyalMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactory.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/MemberFactory.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/OAPMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/OAPMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MemberFactory/StudentMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/HalfPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/HalfPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MemberDiscountDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MemberDiscountDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MembersDecorator.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/MembersDecorator/MembersDecorator.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/NotificationObserver.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/NotificationObserver.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/ObserverMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/ObserverMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/NotificationObserver/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsCA/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsCA/src.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DesignPatternsCA/MembersDecoratorTests/MembersDecoratorTests.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DesignPatternsCA/MembersDecoratorTests/MembersDecoratorTests.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookStratagy/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStratagy/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookStratagy/BookStratagy.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStratagy/BookStratagy.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookStratagy/HorrorBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStratagy/HorrorBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/CommandDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/CommandDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPrice/Half.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/Half.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPrice/HalfPriceStartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPriceStartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/HalfPrice/HalfPriceStopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/HalfPriceStopCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/CheckSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/CheckSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/ObserverAndCommand/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale/Twenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/Twenty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale/TwentyPercentStartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/TwentyPercentStartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale/TwentyPercentStopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/TwentyPercentStopCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandSales/UIforCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandSales/UIforCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryEdit/FactoryEdit.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryEdit/FactoryEdit.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/BasicMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/LoyalMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/MemberFactory.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/MemberFactory.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/OAPMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberFactory/StudentMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/HalfPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/HalfPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/MemberDiscountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/MemberDiscountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MembersDecorator/MembersDecorator.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/NotificationObserver.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/NotificationObserver.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/ObserverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/ObserverMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotificationObserver/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationObserver/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.plantuml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +129,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CommandSales/TwentyPercentSale" />
+    <property name="last_opened_file_path" value="E:/BadLibrarySystem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,23 +156,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LibraryUI">
-    <configuration name="CommandDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommandSales.CommandDriver" />
+  <component name="RunManager" selected="Application.TemplateDriver">
+    <configuration name="MemberFactoryDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemberFactory.MemberFactoryDriver" />
       <module name="DesignPatternsCA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommandSales.HalfPrice.*" />
+          <option name="PATTERN" value="MemberFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LibraryUI" />
-      <module name="DesignPatternsCA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIforCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommandSales.UIforCommand" />
+    <configuration name="TemplateDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TemplateTransaction.TemplateDriver" />
       <module name="DesignPatternsCA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommandSales.HalfPrice.*" />
+          <option name="PATTERN" value="TemplateTransaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,20 +196,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewMembersUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ViewMembersUI" />
+    <configuration name="UI_forFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryEdit.UI_forFactory" />
       <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryEdit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIforCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommandSales.UIforCommand" />
+      <module name="DesignPatternsCA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CommandSales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LibraryUI" />
-        <item itemvalue="Application.UIforCommand" />
+        <item itemvalue="Application.TemplateDriver" />
         <item itemvalue="Application.ObserverMain" />
-        <item itemvalue="Application.CommandDriver" />
-        <item itemvalue="Application.ViewMembersUI" />
+        <item itemvalue="Application.UIforCommand" />
+        <item itemvalue="Application.UI_forFactory" />
+        <item itemvalue="Application.MemberFactoryDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +246,7 @@
       <workItem from="1571759647204" duration="30416000" />
       <workItem from="1573005750476" duration="2232000" />
       <workItem from="1573493161042" duration="14922000" />
-      <workItem from="1577990012969" duration="12889000" />
+      <workItem from="1577990012969" duration="45812000" />
     </task>
     <task id="LOCAL-00001" summary="BasicMemberDiscount class created for members that do not have a discount rate for any books">
       <created>1570124650619</created>
@@ -184,26 +257,6 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="MemberDiscountTest_whenGettingDiscount_makeSureItIsCorrectRate - 2019.10.08 at 19h 17m 56s.xml">
-      <configuration name="MemberDiscountTest.whenGettingDiscount_makeSureItIsCorrectRate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemberDiscountTest_checkIfTestFailsWhenDiscountRateIsIncorrect - 2019.10.08 at 19h 18m 54s.xml">
-      <configuration name="MemberDiscountTest.checkIfTestFailsWhenDiscountRateIsIncorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemberDiscountTest_checkIfTestFailsWhenDiscountRateIsIncorrect - 2019.10.08 at 19h 19m 22s.xml">
-      <configuration name="MemberDiscountTest.checkIfTestFailsWhenDiscountRateIsIncorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemberDiscountTest_checkIfTestFailsWhenDiscountRateIsIncorrect - 2019.10.08 at 19h 26m 21s.xml">
-      <configuration name="MemberDiscountTest.checkIfTestFailsWhenDiscountRateIsIncorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemberDiscountTest_checkIfLoyalDiscountRateIsCorrect - 2019.10.08 at 19h 33m 08s.xml">
-      <configuration name="MemberDiscountTest.checkIfLoyalDiscountRateIsCorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemberDiscountTest - 2019.10.08 at 19h 33m 15s.xml">
-      <configuration name="MemberDiscountTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />

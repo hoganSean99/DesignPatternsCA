@@ -2,120 +2,533 @@
 
 title __DESIGNPATTERNSCA's Class Diagram__\n
 
-  namespace BookStratagy {
-    class BookStratagy.Book {
+  namespace  {
+    namespace ookStratagy {
+      abstract class BookStratagy.Book {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.BasicMember {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.BookDriver {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.LibraryMember {
+  namespace  {
+    namespace ookStratagy {
+      interface BookStratagy.CoverBehaviour {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.LoyalMember {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.HardCover {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.Member {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.HorrorBook {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.MemberFactory {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.NoCover {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.MemberFactoryDriver {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.SoftCover {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.OAPMember {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.ThrillerBook {
+      }
     }
   }
   
 
-  namespace MemberFactory {
-    class MemberFactory.StudentMember {
+  namespace  {
+    namespace ookStratagy {
+      class BookStratagy.UIStrat {
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.BasicDiscount {
+  namespace  {
+    namespace ommandSales {
+      interface CommandSales.CommandClass {
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    abstract class MembersDecorator.DiscountDecorator {
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.CommandDriver {
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.HalfPrice {
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.Half {
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.LoyalDiscount {
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.HalfPriceStartCommand {
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    abstract class MembersDecorator.MemberDiscount {
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.HalfPriceStopCommand {
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.MemberDiscountDriver {
+  namespace  {
+    namespace ommandSales {
+      namespace ObserverAndCommand {
+        class CommandSales.ObserverAndCommand.CheckSale {
+        }
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.OapDiscount {
+  namespace  {
+    namespace ommandSales {
+      namespace ObserverAndCommand {
+        class CommandSales.ObserverAndCommand.Observer {
+        }
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.SpringClearance {
+  namespace  {
+    namespace ommandSales {
+      namespace ObserverAndCommand {
+        class CommandSales.ObserverAndCommand.Sale {
+        }
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.StudentDiscount {
+  namespace  {
+    namespace ommandSales {
+      namespace ObserverAndCommand {
+        interface CommandSales.ObserverAndCommand.Subject {
+        }
+      }
     }
   }
   
 
-  namespace MembersDecorator {
-    class MembersDecorator.SummerSale {
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.SaleCommand {
+      }
     }
   }
   
 
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.Twenty {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.TwentyPercentStartCommand {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.TwentyPercentStopCommand {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ommandSales {
+      class CommandSales.UIforCommand {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.BasicMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.LibraryMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.LoyalMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.Member {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.MemberFactory {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.MemberFactoryDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.OAPMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.StudentMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace actoryEdit {
+      class FactoryEdit.UI_forFactory {
+      }
+    }
+  }
+  
+
+  namespace  {
+    class LibraryUI {
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.BasicMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.LibraryMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.LoyalMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.Member {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.MemberFactory {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.MemberFactoryDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.OAPMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emberFactory {
+      class MemberFactory.StudentMember {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.BasicDiscount {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      abstract class MembersDecorator.DiscountDecorator {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.HalfPrice {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.LoyalDiscount {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      abstract class MembersDecorator.MemberDiscount {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.MemberDiscountDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.OapDiscount {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.SpringClearance {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.StudentDiscount {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace embersDecorator {
+      class MembersDecorator.SummerSale {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace otificationObserver {
+      class NotificationObserver.Member {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace otificationObserver {
+      interface NotificationObserver.MemberNames {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace otificationObserver {
+      interface NotificationObserver.Observer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace otificationObserver {
+      class NotificationObserver.ObserverMain {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace otificationObserver {
+      class NotificationObserver.Product {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace otificationObserver {
+      interface NotificationObserver.Subject {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emplateTransaction {
+      abstract class TemplateTransaction.BookTransaction {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emplateTransaction {
+      class TemplateTransaction.PurchaseBook {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emplateTransaction {
+      class TemplateTransaction.RentBook {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace emplateTransaction {
+      class TemplateTransaction.TemplateDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    class ViewMembersUI {
+    }
+  }
+  
+
+  BookStratagy.Book o-- BookStratagy.CoverBehaviour : coverBehaviour
+  BookStratagy.HardCover .up.|> BookStratagy.CoverBehaviour
+  BookStratagy.HorrorBook -up-|> BookStratagy.Book
+  BookStratagy.NoCover .up.|> BookStratagy.CoverBehaviour
+  BookStratagy.SoftCover .up.|> BookStratagy.CoverBehaviour
+  BookStratagy.ThrillerBook -up-|> BookStratagy.Book
+  CommandSales.HalfPriceStartCommand .up.|> CommandSales.CommandClass
+  CommandSales.HalfPriceStartCommand o-- CommandSales.Half : half
+  CommandSales.HalfPriceStopCommand .up.|> CommandSales.CommandClass
+  CommandSales.HalfPriceStopCommand o-- CommandSales.Half : half
+  CommandSales.ObserverAndCommand.CheckSale .up.|> CommandSales.ObserverAndCommand.Subject
+  CommandSales.ObserverAndCommand.CheckSale o-- CommandSales.ObserverAndCommand.Sale : sales
+  CommandSales.ObserverAndCommand.Sale -up-|> CommandSales.ObserverAndCommand.Observer
+  CommandSales.SaleCommand o-- CommandSales.CommandClass : sale
+  CommandSales.TwentyPercentStartCommand .up.|> CommandSales.CommandClass
+  CommandSales.TwentyPercentStartCommand o-- CommandSales.Twenty : twenty
+  CommandSales.TwentyPercentStopCommand .up.|> CommandSales.CommandClass
+  CommandSales.TwentyPercentStopCommand o-- CommandSales.Twenty : twenty
+  CommandSales.UIforCommand -up-|> javax.swing.JFrame
+  FactoryEdit.BasicMember -up-|> FactoryEdit.Member
+  FactoryEdit.LibraryMember o-- FactoryEdit.MemberFactory : factory
+  FactoryEdit.LoyalMember -up-|> FactoryEdit.Member
+  FactoryEdit.OAPMember -up-|> FactoryEdit.Member
+  FactoryEdit.StudentMember -up-|> FactoryEdit.Member
+  FactoryEdit.UI_forFactory .up.|> java.awt.event.ActionListener
+  FactoryEdit.UI_forFactory -up-|> javax.swing.JFrame
+  LibraryUI -up-|> javax.swing.JFrame
   MemberFactory.BasicMember -up-|> MemberFactory.Member
   MemberFactory.LibraryMember o-- MemberFactory.MemberFactory : factory
   MemberFactory.LoyalMember -up-|> MemberFactory.Member
@@ -130,6 +543,12 @@ title __DESIGNPATTERNSCA's Class Diagram__\n
   MembersDecorator.SpringClearance -up-|> MembersDecorator.DiscountDecorator
   MembersDecorator.StudentDiscount -up-|> MembersDecorator.MemberDiscount
   MembersDecorator.SummerSale -up-|> MembersDecorator.DiscountDecorator
+  NotificationObserver.Member .up.|> NotificationObserver.Observer
+  NotificationObserver.Product .up.|> NotificationObserver.Subject
+  NotificationObserver.Product o-- NotificationObserver.Member : mem
+  TemplateTransaction.PurchaseBook -up-|> TemplateTransaction.BookTransaction
+  TemplateTransaction.RentBook -up-|> TemplateTransaction.BookTransaction
+  ViewMembersUI -up-|> javax.swing.JFrame
 
 
 right footer
