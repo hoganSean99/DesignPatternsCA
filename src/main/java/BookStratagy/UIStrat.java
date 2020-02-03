@@ -32,8 +32,8 @@ public class UIStrat {
 //        Checkbox softCover = new Checkbox("Soft Cover");
 
 
-        JCheckBox hardCover = new JCheckBox("Hard Cover");
-        JCheckBox softCover = new JCheckBox("Soft Cover");
+        final JCheckBox hardCover = new JCheckBox("Hard Cover");
+        final JCheckBox softCover = new JCheckBox("Soft Cover");
 
         hardCover.setVisible(true);
         softCover.setVisible(true);
@@ -60,15 +60,13 @@ public class UIStrat {
         orderButton.addActionListener(new ActionListener( ) {
             public void actionPerformed(ActionEvent ae) {
                 String genre = genreGroup.getSelection().getActionCommand( );
-                switch (genre) {
-                    case "Horror":
-                        book[0] = new HorrorBook();
-                        System.out.println(book[0].display());
-                        break;
-                    case "Thriller":
-                        book[0] = new ThrillerBook();
-                        System.out.println(book[0].display());
-                        break;
+
+                if ("Horror".equals(genre)) {
+                    book[0] = new HorrorBook();
+                    System.out.println(book[0].display());
+                } else if ("Thriller".equals(genre)) {
+                    book[0] = new ThrillerBook();
+                    System.out.println(book[0].display());
                 }
 
                 if (hardCover.isSelected()) {
